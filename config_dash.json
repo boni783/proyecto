@@ -1,0 +1,58 @@
+{
+  "numericas": [
+    "LTV",
+    "DISBURSED_AMOUNT",
+    "ASSET_COST",
+    "AGE_YEARS",
+    "AADHAR_FLAG",
+    "PERFORM_CNS_SCORE",
+    "SIN_HISTORIAL",
+    "CREDIT_HIST_MONTHS",
+    "PRI_OVERDUE_ACCTS",
+    "NO_OF_INQUIRIES",
+    "DELINQUENT_ACCTS_IN_LAST_SIX_MONTHS"
+  ],
+  "categoricas": [
+    "EMPLOYMENT_TYPE"
+  ],
+  "valores_con_historial": {
+    "LTV": 78.24,
+    "DISBURSED_AMOUNT": 54003.0,
+    "ASSET_COST": 70239.0,
+    "AGE_YEARS": 35.2,
+    "AADHAR_FLAG": 1.0,
+    "PERFORM_CNS_SCORE": 679.0,
+    "SIN_HISTORIAL": 0.0,
+    "CREDIT_HIST_MONTHS": 24.0,
+    "PRI_OVERDUE_ACCTS": 0.0,
+    "NO_OF_INQUIRIES": 0.0,
+    "DELINQUENT_ACCTS_IN_LAST_SIX_MONTHS": 0.0,
+    "EMPLOYMENT_TYPE": "Self employed"
+  },
+  "valores_sin_historial": {
+    "LTV": 75.08,
+    "DISBURSED_AMOUNT": 53578.0,
+    "ASSET_COST": 71700.0,
+    "AGE_YEARS": 29.96,
+    "AADHAR_FLAG": 1.0,
+    "PERFORM_CNS_SCORE": 0.0,
+    "SIN_HISTORIAL": 1.0,
+    "CREDIT_HIST_MONTHS": 0.0,
+    "PRI_OVERDUE_ACCTS": 0.0,
+    "NO_OF_INQUIRIES": 0.0,
+    "DELINQUENT_ACCTS_IN_LAST_SIX_MONTHS": 0.0,
+    "EMPLOYMENT_TYPE": "Self employed"
+  },
+  "opciones": {
+    "EMPLOYMENT_TYPE": [
+      "Desconocido",
+      "Salaried",
+      "Self employed"
+    ]
+  },
+  "corte_medio": 0.49704687100274597,
+  "corte_alto": 0.5864177248241861,
+  "modelo": "Gradient Boosting",
+  "auc_final": 0.6277,
+  "tasa_global": 0.2170711203753742
+}
